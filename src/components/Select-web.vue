@@ -2,10 +2,10 @@
     <div class="backimage">
       
         <div class="group">
-          <div class="group1"><a :href="$router.resolve({name: 'selectmap'}).href"><img class="icon" src="../assets/img/ss1.png"></a></div>
-          <div class="group1"><img class="icon" src="../assets/img/ss3.png"></div>
-          <div class="group1"><img class="icon" src="../assets/img/ss2.png"></div>
-          <div class="group1"><img class="icon" src="../assets/img/ss4.png"></div>
+          <div class="group1"><a :href="$router.resolve({name: 'selectmap'}).href"><img class="iconselect" src="../assets/img/ss1.png"></a></div>
+          <div class="group1"><img class="iconselect" src="../assets/img/ss3.png"></div>
+          <div class="group1"><img class="iconselect" src="../assets/img/ss2.png"></div>
+          <div class="group1"><img class="iconselect" src="../assets/img/ss4.png"></div>
         <!-- 
     <img class="icon" src="../assets/img/boat.jpg">
      <img class="icon" src="../assets/img/boat.jpg">
@@ -50,19 +50,15 @@
   justify-content: center;
   padding: 80px;
 }
-  /* .btn_group{
-    
-  } */
+
   *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
   }
-  .icon{
+  .iconselect{
     border-style: solid;
   border-color: white;
   border-width: 10px;
-  /* border-color: white; */
   border-width: 10px;
     width: 94%;
   }
@@ -70,8 +66,7 @@
   display: grid;
   grid-template-columns: auto auto;
     width: 40%;
-    /* background-color: white; */
-    gap: 30px;      /* border-left: 5px solid gray; */
+    gap: 30px;      
 }
 .grou1{
 width: 100%;
@@ -81,11 +76,10 @@ width: 100%;
   display: grid;
     width: 100%;
     grid-template-columns: 100%, 100% ;
-    /* background-color: white; */
-    gap: 20px;      /* border-left: 5px solid gray; */
+    gap: 20px;   
     
 }
-.icon{
+.iconselect{
     border-style: solid;
   border-color: white;
   /* border-width: 10px; */
@@ -100,14 +94,7 @@ width: 100%;
   padding: 40px;
 }
 }
-/* .backimage{ */
-  /* background-size: contain;
-  background-repeat: no-repeat;
-  width: 200px; */
-  /* height: 96vh;
-background-image:url(../assets/img/BG1.png) ;
 
-  } */
  
 
   
